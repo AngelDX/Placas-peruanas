@@ -1,0 +1,176 @@
+=======================================
+ INFORMACIÓN DEL SERVIDOR
+=======================================
+
+>>> Sistema Operativo
+Distributor ID:	Ubuntu
+Description:	Ubuntu 22.04.5 LTS
+Release:	22.04
+Codename:	jammy
+
+>>> CPU
+Arquitectura:                         x86_64
+modo(s) de operación de las CPUs:     32-bit, 64-bit
+Address sizes:                        48 bits physical, 48 bits virtual
+Orden de los bytes:                   Little Endian
+CPU(s):                               64
+Lista de la(s) CPU(s) en línea:       0-63
+ID de fabricante:                     AuthenticAMD
+Nombre del modelo:                    AMD Ryzen Threadripper PRO 5975WX 32-Cores
+Familia de CPU:                       25
+Modelo:                               8
+Hilo(s) de procesamiento por núcleo:  2
+Núcleo(s) por «socket»:               32
+«Socket(s)»                           1
+Revisión:                             2
+Frequency boost:                      enabled
+CPU MHz máx.:                         7006,6401
+CPU MHz mín.:                         1800,0000
+BogoMIPS:                             7186.72
+Indicadores:                          fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm constant_tsc rep_good nopl nonstop_tsc cpuid extd_apicid aperfmperf rapl pni pclmulqdq monitor ssse3 fma cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt aes xsave avx f16c rdrand lahf_lm cmp_legacy svm extapic cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw ibs skinit wdt tce topoext perfctr_core perfctr_nb bpext perfctr_llc mwaitx cpb cat_l3 cdp_l3 hw_pstate ssbd mba ibrs ibpb stibp vmmcall fsgsbase bmi1 avx2 smep bmi2 erms invpcid cqm rdt_a rdseed adx smap clflushopt clwb sha_ni xsaveopt xsavec xgetbv1 xsaves cqm_llc cqm_occup_llc cqm_mbm_total cqm_mbm_local user_shstk clzero irperf xsaveerptr rdpru wbnoinvd amd_ppin brs arat npt lbrv svm_lock nrip_save tsc_scale vmcb_clean flushbyasid decodeassists pausefilter pfthreshold avic v_vmsave_vmload vgif v_spec_ctrl umip pku ospke vaes vpclmulqdq rdpid overflow_recov succor smca fsrm debug_swap
+Virtualización:                       AMD-V
+Caché L1d:                            1 MiB (32 instances)
+Caché L1i:                            1 MiB (32 instances)
+Caché L2:                             16 MiB (32 instances)
+Caché L3:                             128 MiB (4 instances)
+Modo(s) NUMA:                         1
+CPU(s) del nodo NUMA 0:               0-63
+Vulnerability Gather data sampling:   Not affected
+Vulnerability Itlb multihit:          Not affected
+Vulnerability L1tf:                   Not affected
+Vulnerability Mds:                    Not affected
+Vulnerability Meltdown:               Not affected
+Vulnerability Mmio stale data:        Not affected
+Vulnerability Reg file data sampling: Not affected
+Vulnerability Retbleed:               Not affected
+Vulnerability Spec rstack overflow:   Vulnerable: Safe RET, no microcode
+Vulnerability Spec store bypass:      Mitigation; Speculative Store Bypass disabled via prctl
+Vulnerability Spectre v1:             Mitigation; usercopy/swapgs barriers and __user pointer sanitization
+Vulnerability Spectre v2:             Mitigation; Retpolines; IBPB conditional; IBRS_FW; STIBP always-on; RSB filling; PBRSB-eIBRS Not affected; BHI Not affected
+Vulnerability Srbds:                  Not affected
+Vulnerability Tsx async abort:        Not affected
+
+>>> Memoria RAM
+               total       usado       libre  compartido   búf/caché  disponible
+Mem:           125Gi        32Gi       7,4Gi       129Mi        86Gi        92Gi
+Inter:         2,0Gi       2,0Mi       2,0Gi
+
+>>> GPU
+2a:00.0 VGA compatible controller: ASPEED Technology, Inc. ASPEED Graphics Family (rev 41)
+41:00.0 VGA compatible controller: NVIDIA Corporation GA102 [GeForce RTX 3080 Lite Hash Rate] (rev a1)
+61:00.0 VGA compatible controller: NVIDIA Corporation GA102 [GeForce RTX 3080 Lite Hash Rate] (rev a1)
+Wed Sep 24 22:00:42 2025       
++-----------------------------------------------------------------------------------------+
+| NVIDIA-SMI 550.144.03             Driver Version: 550.144.03     CUDA Version: 12.4     |
+|-----------------------------------------+------------------------+----------------------+
+| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |
+|                                         |                        |               MIG M. |
+|=========================================+========================+======================|
+|   0  NVIDIA GeForce RTX 3080        Off |   00000000:41:00.0 Off |                  N/A |
+| 30%   40C    P8             24W /  320W |     242MiB /  10240MiB |      0%      Default |
+|                                         |                        |                  N/A |
++-----------------------------------------+------------------------+----------------------+
+|   1  NVIDIA GeForce RTX 3080        Off |   00000000:61:00.0  On |                  N/A |
+| 30%   37C    P8             33W /  320W |     360MiB /  10240MiB |      6%      Default |
+|                                         |                        |                  N/A |
++-----------------------------------------+------------------------+----------------------+
+                                                                                         
++-----------------------------------------------------------------------------------------+
+| Processes:                                                                              |
+|  GPU   GI   CI        PID   Type   Process name                              GPU Memory |
+|        ID   ID                                                               Usage      |
+|=========================================================================================|
+|    0   N/A  N/A   1554052      G   /usr/lib/xorg/Xorg                              4MiB |
+|    0   N/A  N/A   2802110      G   /usr/lib/xorg/Xorg                              4MiB |
+|    0   N/A  N/A   2971331      C   /usr/bin/python3                              214MiB |
+|    1   N/A  N/A   1554052      G   /usr/lib/xorg/Xorg                             29MiB |
+|    1   N/A  N/A   2802110      G   /usr/lib/xorg/Xorg                            197MiB |
+|    1   N/A  N/A   2802301      G   /usr/bin/gnome-shell                           24MiB |
++-----------------------------------------------------------------------------------------+
+
+>>> Almacenamiento (Discos)
+NAME        MAJ:MIN RM   SIZE RO TYPE MOUNTPOINTS
+loop0         7:0    0     4K  1 loop /snap/bare/5
+loop1         7:1    0  73,9M  1 loop /snap/core22/2111
+loop2         7:2    0  50,9M  1 loop 
+loop3         7:3    0   576K  1 loop /snap/snapd-desktop-integration/315
+loop4         7:4    0  66,8M  1 loop /snap/core24/1055
+loop5         7:5    0  49,3M  1 loop /snap/snapd/24792
+loop6         7:6    0  63,8M  1 loop /snap/core20/2599
+loop7         7:7    0 349,7M  1 loop /snap/gnome-3-38-2004/140
+loop8         7:8    0 349,7M  1 loop /snap/gnome-3-38-2004/143
+loop9         7:9    0  63,8M  1 loop /snap/core20/2669
+loop10        7:10   0   516M  1 loop /snap/gnome-42-2204/202
+loop11        7:11   0  91,7M  1 loop /snap/gtk-common-themes/1535
+loop12        7:12   0  12,9M  1 loop /snap/snap-store/1113
+loop13        7:13   0  12,2M  1 loop /snap/snap-store/1216
+loop14        7:14   0  73,9M  1 loop 
+loop15        7:15   0 516,2M  1 loop /snap/gnome-42-2204/226
+loop16        7:16   0  66,8M  1 loop /snap/core24/1151
+loop17        7:17   0   568K  1 loop /snap/snapd-desktop-integration/253
+loop19        7:19   0 290,8M  1 loop /snap/mesa-2404/912
+loop20        7:20   0  73,9M  1 loop 
+loop21        7:21   0  50,8M  1 loop /snap/snapd/25202
+loop22        7:22   0 247,1M  1 loop /snap/firefox/6836
+loop23        7:23   0  73,9M  1 loop /snap/core22/2133
+loop24        7:24   0 247,1M  1 loop /snap/firefox/6782
+sda           8:0    0   1,7T  0 disk 
+└─sda1        8:1    0   1,7T  0 part /mnt/temp
+nvme0n1     259:0    0 931,5G  0 disk 
+├─nvme0n1p1 259:1    0   512M  0 part /boot/efi
+└─nvme0n1p2 259:2    0   931G  0 part /var/snap/firefox/common/host-hunspell
+                                      /
+S.ficheros     Tamaño Usados  Disp Uso% Montado en
+tmpfs             13G    18M   13G   1% /run
+/dev/nvme0n1p2   916G   535G  335G  62% /
+tmpfs             63G    17M   63G   1% /dev/shm
+tmpfs            5,0M   4,0K  5,0M   1% /run/lock
+efivarfs         128K    17K  107K  14% /sys/firmware/efi/efivars
+/dev/sda1        1,8T   9,0G  1,7T   1% /mnt/temp
+/dev/nvme0n1p1   511M    36M  476M   7% /boot/efi
+tmpfs             13G   164K   13G   1% /run/user/1000
+tmpfs             13G    68K   13G   1% /run/user/1010
+tmpfs             13G   128K   13G   1% /run/user/1013
+
+>>> Interfaces de red
+1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN group default qlen 1000
+    link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
+    inet 127.0.0.1/8 scope host lo
+       valid_lft forever preferred_lft forever
+    inet6 ::1/128 scope host 
+       valid_lft forever preferred_lft forever
+2: enp37s0f0: <NO-CARRIER,BROADCAST,MULTICAST,UP> mtu 1500 qdisc mq state DOWN group default qlen 1000
+    link/ether 04:42:1a:f0:25:3a brd ff:ff:ff:ff:ff:ff
+3: enp37s0f1: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc mq state UP group default qlen 1000
+    link/ether 04:42:1a:f0:25:39 brd ff:ff:ff:ff:ff:ff
+    inet 172.22.2.44/24 brd 172.22.2.255 scope global noprefixroute enp37s0f1
+       valid_lft forever preferred_lft forever
+    inet6 fec0::223a:e091:7d17:b9f8/64 scope site temporary deprecated dynamic 
+       valid_lft 64688sec preferred_lft 0sec
+    inet6 fec0::a68c:51db:497b:d1eb/64 scope site deprecated dynamic mngtmpaddr noprefixroute 
+       valid_lft 1448166sec preferred_lft 0sec
+    inet6 fe80::a3c0:348a:1370:908d/64 scope link noprefixroute 
+       valid_lft forever preferred_lft forever
+5: docker0: <NO-CARRIER,BROADCAST,MULTICAST,UP> mtu 1500 qdisc noqueue state DOWN group default 
+    link/ether 4e:96:af:97:ee:24 brd ff:ff:ff:ff:ff:ff
+    inet 172.17.0.1/16 brd 172.17.255.255 scope global docker0
+       valid_lft forever preferred_lft forever
+    inet6 fe80::4c96:afff:fe97:ee24/64 scope link 
+       valid_lft forever preferred_lft forever
+10: br-45b9c4ebf462: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc noqueue state UP group default 
+    link/ether be:37:df:12:a7:24 brd ff:ff:ff:ff:ff:ff
+    inet 172.18.0.1/16 brd 172.18.255.255 scope global br-45b9c4ebf462
+       valid_lft forever preferred_lft forever
+    inet6 fe80::bc37:dfff:fe12:a724/64 scope link 
+       valid_lft forever preferred_lft forever
+15: veth37b98d2@if2: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc noqueue master br-45b9c4ebf462 state UP group default 
+    link/ether 7a:25:98:58:f2:88 brd ff:ff:ff:ff:ff:ff link-netnsid 0
+    inet6 fe80::7825:98ff:fe58:f288/64 scope link 
+       valid_lft forever preferred_lft forever
+16: wlx2c9ffbc5b885: <BROADCAST,MULTICAST> mtu 1500 qdisc noop state DOWN group default qlen 1000
+    link/ether 2c:9f:fb:c5:b8:85 brd ff:ff:ff:ff:ff:ff
+
+=======================================
+Reporte generado el: mié 24 set 2025 22:00:42 -05
+=======================================

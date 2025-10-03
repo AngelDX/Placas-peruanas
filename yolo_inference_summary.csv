@@ -1,0 +1,6 @@
+model;avg_inference_time_ms;avg_fps
+best_base.pt;14.5585;69.72552
+best_yolo10.pt;12.484290000000001;87.86318
+best_yolo11.pt;10.02923;100.49364999999999
+best_yolo12.pt;13.42936;74.96374
+best_yolo8.pt;8.61161;117.05239999999999
